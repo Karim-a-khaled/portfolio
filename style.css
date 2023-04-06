@@ -113,21 +113,34 @@ p{
   margin-top: 18px;
 }
 .project-image{
-  width: 200px;
+  width: 13em;
   height: 200px;
 }
 .project-title{
   text-transform: capitalize;
 }
-.projects-btn{
-  background-color: rgb(49, 119, 154);
+.submit-btn{
+  background-color: rgb(126, 134, 138);
   padding: 3px;
+  color: white;
   font-size: 20px;
   opacity: 0.7;
   cursor: pointer;
 }
-.projects-btn:hover{
+.submit-btn:hover{
   padding: 4px;
+  opacity: 1;
+}
+.my-projects-btn{
+  padding: .5em;
+  font-size: 1.5em;
+  border-radius: 13px;
+  opacity: 0.7;
+  margin-top: 20px;
+  margin-left: 40em;
+}
+.my-projects-btn:hover{
+  padding: .6em;
   opacity: 1;
 }
 .fa-brands{
