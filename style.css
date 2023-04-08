@@ -1,20 +1,17 @@
+/* Start of All Page */
+
 *,*::before,*::before{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-.layout{
-  width: 98vw;
-  margin: 0 auto;
-}
 body{
-  background: rgb(72,117,144);
-  background: linear-gradient(90deg, rgba(72,117,144,1) 37%, rgba(22,70,54,1) 100%);
+  background-color: #4d7d78;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
 .container1{
-  width: 90%;
+  width: 88%;
   margin: 0 auto;
   height: 98vh;
 }
@@ -39,11 +36,28 @@ nav > ul > li a{
 nav > ul > li a:hover{
   cursor: pointer;
   font-weight: bolder;
-  color: black;
+  color: #05282e;
 }
 p{
   font-size: large;
 }
+.footer{
+  display: flex;
+  justify-content: space-between;
+  font-size: 35px;
+  border-top: 1px solid white;
+  margin-top: 220px;
+}
+.cpy{
+  align-self: center;
+}
+
+/* End Of All Pages */
+
+
+
+/* Start of home page */
+
 .welcome{
   margin-bottom: 20px;
   font-size: 2.5em;
@@ -54,15 +68,14 @@ p{
   color: cadetblue;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   display: block;
-  margin-left: 270px;
+  margin-left: 3em;
   text-transform: capitalize;
 }
 .my-projects-btn{
-  background-color: rgb(126, 134, 138);
+  background-color: rgb(77, 142, 174);
   padding: .5em;
   font-size: 1.5em;
   border-radius: 13px;
-  opacity: 0.7;
   margin-top: 20px;
   margin-left: 40em;
 }
@@ -70,18 +83,19 @@ p{
   padding: .6em;
   opacity: 1;
 }
+
+/* end of home page */
+
+
+/* Start of About me page */
+
 .title{
   text-transform: capitalize;
   text-align: center;
   margin-bottom: 18px;
   border-bottom: 1px solid white ;
 }
-.container-2{
-  height: 96vh;
-}
-.desc{
-  margin-bottom: 20px;
-}
+
 .education-list{
   list-style: none;
   font-size: large;
@@ -92,19 +106,27 @@ p{
 }
 .about-me{
   line-height: 25px;
-  margin-bottom: 50px;
 }
-.education{
-  margin-top: 50px;
+.desc{
+  margin-bottom: 20px;
 }
+.footer-about{
+  margin-top: 101px;
+}
+
+/* End of About me page */
+
+
+
+/* Start of projects page  */
+
 .card{
-  width: 240px;
-  height: 240px;  
+  width: 15em;
+  height: 15em;  
   margin-right: 70px;
   text-align: center ;
 }
 .projects{
-  margin: 0 auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -113,46 +135,73 @@ p{
   margin-top: 18px;
 }
 .project-image{
-  width: 13em;
-  height: 200px;
+  width: 100%;
+  height: 80%;
 }
 .project-title{
   text-transform: capitalize;
+}
+.footer-projects{
+  margin-top: 189px;
+}
+/* Start of projects page  */
+
+
+
+
+/* Start of contact me page */
+
+.contact-header{
+margin-bottom: 68.5px;
+}
+.title-contact{
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 30px;
+}
+input{
+  width: 100%;
+  padding: .5em;
+}
+label{
+  font-size: larger;
+}
+textarea{
+  width:100%
 }
 .submit-btn{
   background-color: rgb(126, 134, 138);
   padding: 3px;
   color: white;
   font-size: 20px;
-  opacity: 0.7;
   cursor: pointer;
 }
 .submit-btn:hover{
   padding: 4px;
   opacity: 1;
 }
-.my-projects-btn{
-  padding: .5em;
-  font-size: 1.5em;
-  border-radius: 13px;
-  opacity: 0.7;
-  margin-top: 20px;
-  margin-left: 40em;
+.footer-contact{
+  margin-top: 72px
 }
-.my-projects-btn:hover{
-  padding: .6em;
-  opacity: 1;
-}
-.fa-brands{
-  font-size: 40px;
-  margin: 80px 30px 15px 0;
-}
-.social-media{
-  text-align: center;
-}
-.fa-linkedin-in{
-  color: rgb(64, 123, 186);
-}
+
+/* End of contact me page */
+
+
+
+/* Start of skills page */
+  .cards{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 13.7em;
+  }
+  .skill{
+    width: 70px;
+    height: 80px;
+  }
+
+/* End of skills page */
+
+
 
 
 
