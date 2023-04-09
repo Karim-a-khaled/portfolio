@@ -65,7 +65,7 @@ p{
 }
 .job{
   font-size: 3.5em;
-  color: cadetblue;
+  color: #000;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   display: block;
   margin-left: 3em;
@@ -73,14 +73,14 @@ p{
 }
 .my-projects-btn{
   background-color: rgb(77, 142, 174);
-  padding: .5em;
+  padding: .3em;
   font-size: 1.5em;
   border-radius: 13px;
   margin-top: 20px;
   margin-left: 40em;
 }
 .my-projects-btn:hover{
-  padding: .6em;
+  padding: .5em;
   opacity: 1;
 }
 
@@ -89,20 +89,25 @@ p{
 
 /* Start of About me page */
 
+.about-me-header{
+  margin-bottom: 55px;
+}
 .title{
   text-transform: capitalize;
   text-align: center;
   margin-bottom: 18px;
   border-bottom: 1px solid white ;
 }
-
+.layout{
+  display: flex;
+}
+.info{
+  width: 60%;
+}
 .education-list{
   list-style: none;
   font-size: large;
   margin-bottom: 4px;
-}
-.info{
-  width: 60%;
 }
 .about-me{
   line-height: 25px;
@@ -110,8 +115,15 @@ p{
 .desc{
   margin-bottom: 20px;
 }
+.my-image{
+  margin: 3em 0 0 10em;
+}
+.photo{
+  width: 13em;
+  border-radius: 62px;
+}
 .footer-about{
-  margin-top: 101px;
+  margin-top: 70.4px;
 }
 
 /* End of About me page */
